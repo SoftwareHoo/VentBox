@@ -8,7 +8,7 @@ const screens = {
         screen: Home,
         navigationOptions: ({ navigation }) => {
             return {
-                headerTitle: () => <Header title='Let It Out!' navigation={navigation} />,
+                headerTitle: () => <Header title='VentBox' navigation={navigation} />,
             }
         }
     },
